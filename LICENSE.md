@@ -5,7 +5,7 @@ controller and is uncopyright-able.
 I don't think the SQLite database itself is really transformative, so it is
 likely also public domain.
 
-Please seek legal advice if you're unsure as I am not a lawyer.
+Please seek professional legal advice if you're unsure as I am not a lawyer.
 
 ---
 
@@ -32,7 +32,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
 
 
 [cpra]: https://en.wikipedia.org/wiki/California_Public_Records_Act
