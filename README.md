@@ -43,7 +43,7 @@ This is the easiest way to use the database. It's a web version of the database 
 
 Start with this simple query for the use case of looking up unclaimed properties at an address that takes about 9 seconds to run and hack at the query to your heart's content for the next query to run:
 
-https://datasette-lite.mindflakes.com/index.html?url=https://datasette-lite.mindflakes.com/odb.sqlite#/odb?sql=SELECT+++*%0AFROM+++++records%0AWHERE++++records+match+%22%7BOWNER_STREET_1+OWNER_STREET_2+OWNER_STREET_3%7D%3A+2665+Ticatica%22%0AORDER+BY+cast%28current_cash_balance+AS+float%29+DESC%3B
+https://datasette-lite.mindflakes.com/index.html?url=https://datasette-lite.mindflakes.com/odb.sqlite#/odb?sql=SELECT+*+FROM+records+WHERE+records+MATCH+%0A%22%7BOWNER_STREET_1+OWNER_STREET_2+OWNER_STREET_3%7D%3A+2665+ticatica%22%0AORDER+BY+cast%28current_cash_balance+AS+float%29+DESC%3B
 
 [This is a customized version of datasette-lite that pulls from ](https://github.com/simonw/datasette-lite/pull/49)
 
