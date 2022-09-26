@@ -2,7 +2,8 @@
 
 This is a toolkit to dive a little deeper into California Unclaimed Property database than what the state controller's site offers.
 
----
+![datasette-lite mindflakes com_index html_url=https___datasette-lite mindflakes com_ca_unclaimed_property sqlite(iPad Air)](https://user-images.githubusercontent.com/5363/192179929-026439ad-4cd2-4497-8988-046e1aba43dd.png)
+
 
 > California’s Unclaimed Property Law requires banks, insurance companies, corporations, and certain other entities to report and submit their customers’ property to the State Controller’s Office when there has been no activity for a period of time (generally three years).
 
