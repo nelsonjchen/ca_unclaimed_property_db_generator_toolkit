@@ -1,5 +1,5 @@
 
-all: ca_lost_property.sqlite
+all: ca_unclaimed_property.sqlite
 
 .PHONY: upload
 
@@ -10,9 +10,9 @@ all: ca_lost_property.sqlite
 	unzip 00_All_Records.zip -d .
 	touch 00_All_Records/All_Records__File_1_of_1.csv
 
-ca_lost_property.sqlite: 00_All_Records/All_Records__File_1_of_1.csv import.sql
+ca_unclaimed_property.sqlite: 00_All_Records/All_Records__File_1_of_1.csv import.sql
 	rm $@ || true
 	sqlite3 $@ < import.sql
 
-upload: ca_lost_property.sqlite
-	aws s3 cp ./ca_lost_property.sqlite s3://datasette-lite/ --profile cf --endpoint-url https://c455dc5b9661861484370320794ab63c.r2.cloudflarestorage.com
+upload: ca_unclaimed_property.sqlite
+	aws s3 cp ./ca_unclaimed_property.sqlite s3://datasette-lite/ --profile cf --endpoint-url https://c455dc5b9661861484370320794ab63c.r2.cloudflarestorage.com
