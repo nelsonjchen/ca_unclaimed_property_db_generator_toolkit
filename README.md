@@ -37,6 +37,8 @@ The first question to ask is: Do you actually need this? Use the [state controll
 
 ### Custom datasette-lite (experimental, easy, slow, maybe fast?)
 
+![datasette-lite mindflakes com_index html_url=https___datasette-lite mindflakes com_odb sqlite(iPad Air)](https://user-images.githubusercontent.com/5363/192173696-46b71fac-8156-48af-bca3-b5f42c9d06f4.png)
+
 This is the easiest way to use the database. It's a web version of the database that you can query with SQL. The database engine runs completely in your web browser but certain workloads require a lot of little reads and this greatly increases query times. It is also rather experimental and may be a bit buggy and slow.
 
 Start with this simple query for the use case of looking up unclaimed properties at an address that takes about 9 seconds to run and hack at the query to your heart's content for the next query to run:
