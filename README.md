@@ -29,7 +29,9 @@ Unlike many other states, California offers their database for download. It's a 
 
 https://www.sco.ca.gov/upd_download_property_records.html
 
-Processing the ZIP/CSV is an exercise left to the user. This toolkit is a set of scripts to create your own SQLite database for searching. It also links to a live version of the database exposed with a [customized datasette-lite][cdsl] for light queries that runs completely from your computer but it's a bit slow. You may also just download the 28GB SQLite database outright from the service as well.
+The state controller's positition is that processing the ZIP/CSV is an exercise left to the user. 
+
+This toolkit contains a live version of the database exposed with a [customized datasette-lite][cdsl] for light queries that runs completely from your computer, a set of Makefiles/scripts to create your own SQLite database for deeper searching, and also provides a download of a prebuilt, fast, full text, pre-indexed, and searchable 28GB SQLite database version of the data.
 
 ## Usage
 
