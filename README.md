@@ -47,7 +47,9 @@ Start with this simple query for the use case of looking up unclaimed properties
 
 https://datasette-lite.mindflakes.com/index.html?url=https://datasette-lite.mindflakes.com/odb.sqlite#/odb?sql=SELECT+*+FROM+records+WHERE+records+MATCH+%0A%22%7BOWNER_STREET_1+OWNER_STREET_2+OWNER_STREET_3%7D%3A+2665+ticatica%22%0AORDER+BY+cast%28current_cash_balance+AS+float%29+DESC%3B
 
-[This is a customized version of datasette-lite that pulls from ](https://github.com/simonw/datasette-lite/pull/49)
+The customized version of datasette-lite can be found here:
+
+https://github.com/simonw/datasette-lite/pull/49)
 
 ### Use my pregenerated SQLite database
 
