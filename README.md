@@ -6,7 +6,7 @@ This is a toolkit to dive a little deeper into California Unclaimed Property dat
 
 > California’s Unclaimed Property Law requires banks, insurance companies, corporations, and certain other entities to report and submit their customers’ property to the State Controller’s Office when there has been no activity for a period of time (generally three years).
 
-For most people who have done business or lived in California, the search for these properties can be done through:
+For most people who have done business or lived in California, the search for these properties can be done through the state controller's site:
 
 https://ucpi.sco.ca.gov/en/Property/SearchIndex
 
