@@ -12,12 +12,12 @@ https://ucpi.sco.ca.gov/en/Property/SearchIndex
 
 You may find a small amount of money or a large pile of money. The database is always being updated, so you probably want to periodically check. This is the most convenient way to do so.
 
-Unfortunately, like all databases, sometimes the data is a bit wonky and the limited search interface such as the one on the state controller's site might not be enough to locate all the properties of interest.
+Unfortunately, like many databases, sometimes the data is a bit wonky and the limited search interface to it such as the one on the state controller's site might not be enough to locate all the properties of interest.
 
 Some known limitations:
 
 * You must enter a name.
-  * You can't search on the state controller's site with only street address. Your property might not be under your exact name or it is misspelled. There is no "no name" option.
+  * You can't search on the state controller's site with only street address. Your property might not be under your exact name or it is misspelled. There is no "no name" option. If you try, you get no error, but also no results. 
 * Name entries can sometimes appear in the address.
   * If you have a loan-out, your name might be in "street address 1" or an even more obscure field.
 * An anti-automation Recaptcha is present on the state controller's site to prevent bulk queries.
