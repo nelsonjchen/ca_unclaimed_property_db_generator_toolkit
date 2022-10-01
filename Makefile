@@ -3,6 +3,9 @@ all: ca_unclaimed_property.sqlite
 
 .PHONY: upload
 
+clean:
+	rm -rf 00_All_Records.zip 00_All_Records ca_unclaimed_property.sqlite
+
 00_All_Records.zip:
 	aria2c https://dpupd.sco.ca.gov/00_All_Records.zip
 
