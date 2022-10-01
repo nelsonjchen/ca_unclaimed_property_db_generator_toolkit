@@ -4,3 +4,4 @@
 *.csv
 *.sqlite-journal
 *.aria2
+*.bin
