@@ -42,3 +42,6 @@ split: ca_unclaimed_property.sqlite
 
 upload: ca_unclaimed_property.sqlite
 	aws s3 cp ./ca_unclaimed_property.sqlite s3://datasette-lite/ --profile cf --endpoint-url https://c455dc5b9661861484370320794ab63c.r2.cloudflarestorage.com
+
+upload_split:
+	aws s3 cp --recursive ./sdb/ s3://datasette-lite-lab/sdb/ --profile cf --endpoint-url https://c455dc5b9661861484370320794ab63c.r2.cloudflarestorage.com
