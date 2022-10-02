@@ -1,6 +1,6 @@
 PRAGMA journal_mode = OFF;
 PRAGMA synchronous = 0;
-pragma page_size = 65536;
+pragma page_size = 4096;
 PRAGMA cache_size = 10000;
 PRAGMA locking_mode = EXCLUSIVE;
 PRAGMA temp_store = MEMORY;

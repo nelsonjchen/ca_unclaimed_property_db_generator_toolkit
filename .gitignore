@@ -5,3 +5,5 @@
 *.sqlite-journal
 *.aria2
 *.bin
+*.xxhsum
+sdb/*
