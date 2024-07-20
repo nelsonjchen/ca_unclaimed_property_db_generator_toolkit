@@ -1,5 +1,5 @@
 *.zip
-*.duckdb
+*.duckdb*
 *.sqlite
 *.db
 *.csv
