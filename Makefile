@@ -32,6 +32,10 @@ ca_unclaimed_property.sqlite: 00_All_Records/All_Records__File_1_of_1.csv import
 	rm $@ || true
 	sqlite3 $@ < import.sql
 
+ca_unclaimed_property.duckdb: 00_All_Records/All_Records__File_1_of_1.csv import_duckdb.sql
+	rm -f $@
+	duckdb $@ < import_duckdb.sql
+
 split: ca_unclaimed_property.sqlite
 # Get checksum from file
 	$(eval CHECKSUM := $(shell xxhsum ca_unclaimed_property.sqlite | awk '{print $$1}'))

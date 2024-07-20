@@ -1,0 +1,1 @@
+CREATE TABLE records AS SELECT * FROM read_csv_auto('00_All_Records/All_Records__File_1_of_1.csv', ignore_errors=true);
