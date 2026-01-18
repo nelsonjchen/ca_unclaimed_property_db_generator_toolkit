@@ -25,8 +25,7 @@ clean:
 	aria2c https://dpupd.sco.ca.gov/00_All_Records.zip
 
 00_All_Records/All_Records__File_1_of_1.csv: 00_All_Records.zip
-	unzip -o 00_All_Records.zip -d .
-	touch 00_All_Records/All_Records__File_1_of_1.csv
+	unzip -o 00_All_Records.zip -d 00_All_Records
 
 ca_unclaimed_property.sqlite: 00_All_Records/All_Records__File_1_of_1.csv import.sql
 	rm $@ || true
